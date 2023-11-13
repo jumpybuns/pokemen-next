@@ -1,8 +1,10 @@
+export type Result = {
+	name: string;
+	url: string;
+};
+
 export type CardResults = {
-	results: {
-		name: string;
-		url: string;
-	}[];
+	results: Result[];
 };
 
 export type CardProps = {
